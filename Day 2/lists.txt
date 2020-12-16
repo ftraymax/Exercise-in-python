@@ -1,0 +1,134 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam[0]
+'cat'
+>>> spam[1]
+'bat'
+>>> spam[2]
+'rat'
+>>> spam[3]
+'elephant'
+>>> ['cat', 'bat', 'rat', 'elephant'][3]
+'elephant'
+>>> 'hello, '+spam[2]
+'hello, rat'
+>>> 'hello, ' +spam[2]+ 'wassup'
+'hello, ratwassup'
+>>> 'the' +spam[1]+'chllin with'+spam[3]
+'thebatchllin withelephant'
+>>> spam =[['cat','bat'],[10,20,30,40,50]]
+>>> spam[0]
+['cat', 'bat']
+>>> sam[0][0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sam' is not defined
+>>> spam[0][0]
+'cat'
+>>> spam[1][2]
+30
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam[-2]
+'rat'
+>>> spam[-4]
+'cat'
+>>> 'The '+spam[-1]+' is afraid of the ' +spam[-2]
+'The elephant is afraid of the rat'
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam[0:2]
+['cat', 'bat']
+>>> spam[0:3]
+['cat', 'bat', 'rat']
+>>> spam[2:4]
+['rat', 'elephant']
+>>> spam[0:-2]
+['cat', 'bat']
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam[:3]
+['cat', 'bat', 'rat']
+>>> spam[2:]
+['rat', 'elephant']
+>>> spam[:]
+['cat', 'bat', 'rat', 'elephant']
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> len(spam)
+4
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam[1] = 'scyther'
+>>> spam
+['cat', 'scyther', 'rat', 'elephant']
+>>> spam[1] = spam[2]
+>>> spam
+['cat', 'rat', 'rat', 'elephant']
+>>> spam[-1] = 'perro'
+>>> spam
+['cat', 'rat', 'rat', 'perro']
+>>> spam[-2] = 23
+>>> spam
+['cat', 'rat', 23, 'perro']
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> del spam[3]
+>>> spam
+['cat', 'bat', 'rat']
+>>> del spam[:2]
+>>> spam
+['rat']
+>>> del spam[0]
+>>> spam
+[]
+>>> spam+= 'world'
+>>> spam
+'helloworld'
+>>> spam = ['hola']
+>>> spam *= 2
+>>> spam
+['hola', 'hola']
+>>> spam = ['charmander', 'bulbasaur', 'squirtle', 'mew']
+>>> sam.index('mew')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sam' is not defined
+>>> spam.index('mew')
+3
+>>> cheems = ['cat', 'dog', 'rat']
+>>> cheems.append('elephant')
+>>> cheems
+['cat', 'dog', 'rat', 'elephant']
+>>> cheems = ['dog', 'cat' , 'bat']
+>>> cheems.insert(0,'elephant')
+>>> cheems
+['elephant', 'dog', 'cat', 'bat']
+>>> spam = ['charmander', 'bulbasaur', 'squirtle', 'mew']
+>>> spam.remove('mew')
+>>> spam
+['charmander', 'bulbasaur', 'squirtle']
+>>> cheems = [ 'hi', 'hola', 'gracias', 'soli', 'hola']
+>>> cheems.remove('hola')
+>>> cheems
+['hi', 'gracias', 'soli', 'hola']
+>>> spam = [2, 5 ,9, -1, 56, 32]
+>>> spam.sort()
+>>> spam
+[-1, 2, 5, 9, 32, 56]
+>>> spam = ['ants', 'cats', 'dog', 'cheems']
+>>> spam.sort()
+>>> spam
+['ants', 'cats', 'cheems', 'dog']
+>>> spam.sort(reverse=True)
+>>> spam
+['dog', 'cheems', 'cats', 'ants']
+>>> spam = ['Alice', 'ants', 'Bob', 'bobcat', 'Cathey', 'cheetah']
+>>> spam.sort()
+>>> spam
+['Alice', 'Bob', 'Cathey', 'ants', 'bobcat', 'cheetah']
+>>> spam = ['a', 'z', 'A', 'Z']
+>>> spam.sort(key=str.lower)
+>>> spam
+['a', 'A', 'z', 'Z']
+>>> spam.reverse()
+>>> spam
+['Z', 'z', 'A', 'a']
+>>>
+
+
