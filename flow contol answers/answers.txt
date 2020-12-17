@@ -1,0 +1,56 @@
+1. True & False.
+
+2. and , or & not.
+
+3.     and
+True and True   = True
+True and False  = False
+False and True  = False
+False and False = False
+
+        or
+True or True   = True
+True or False  = True
+False or True  = True
+False or False = False
+
+       not
+not True  = False
+not False = True
+
+4.
+a. True and False = False
+b. not True       = False
+c. True or False  = True
+d. not(True or False)
+   not True       = False
+e. True and False = False
+f. True or False  = True
+
+5. == , != ,< , > ,<= and >=
+
+6. Equal to operator compares 2 given values and gives the result as True or False; 
+   Assignment operators are used to store values into a variable.
+
+7. Condition is an expression which evaluate to a boolean value.
+
+8. print('eggs')     - Block1
+   if spam > 5:
+      print('bacon') - Block2 (indendation increased)
+   else:
+      print('ham')   - Block3 (indendation increased)
+   print('spam')
+
+10. ctrl-C
+
+11. Break:    The break statement will make the execution to get out after the loop.
+    Continue: The Continue statement will make the execution to go to the start of the loop.
+
+12. range(10)    : Gives numbers from 0 till n-1 where n=10.
+    range(0,10)  : Gives numbers from 0 till n-1 where n=10, also 0 represents the starting point.
+    range(0,10,1): Gives numbers from 0 till n-1 where n=10, also 1 represents the step which notifies how many increments hsould be made.
+
+14. spam.bacon()
+
+
+   
